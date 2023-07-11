@@ -4,8 +4,8 @@ type TokenomicsProps = {}
 const Tokenomics = React.forwardRef<HTMLDivElement, TokenomicsProps>(
   (props, ref) => {
     return (
-      <div className="flex pl-10 py-20" ref={ref}>
-        <div className="w-1/2">
+      <div className="flex flex-col lg:flex-row lg:pl-10 py-20" ref={ref}>
+        <div className="lg:w-1/2">
           <h1 className="text-yellow text-6xl font-bold">Tokenomics</h1>
           <p className="py-10 text-xl font-bold text-lightGray">
             <span className="text-blue">0%</span> Taxes,{' '}
@@ -34,6 +34,14 @@ const Tokenomics = React.forwardRef<HTMLDivElement, TokenomicsProps>(
               exchange
             </li>
             <li>
+              2% - For listing on <span className="text-blue">Mexc</span>{' '}
+              exchange
+            </li>
+            <li>
+              3% - For listing on <span className="text-blue">Houbi</span>{' '}
+              exchange
+            </li>
+            <li>
               4% - For listing on <span className="text-blue">ByBit</span>{' '}
               exchange
             </li>
@@ -46,24 +54,20 @@ const Tokenomics = React.forwardRef<HTMLDivElement, TokenomicsProps>(
               exchange
             </li>
             <li>
-              2% - For listing on <span className="text-blue">Mexc</span>{' '}
+              5% - For listing on <span className="text-blue">OKX</span>{' '}
               exchange
             </li>
             <li>
-              5% - For listing on <span className="text-blue">OKEX</span>{' '}
+              5% - For listing on <span className="text-blue">Coinbase</span>{' '}
               exchange
             </li>
             <li>
-              3% - For listing on <span className="text-blue">Houbi</span>{' '}
-              exchange
-            </li>
-            <li>
-              6% - For{' '}
+              4% - For{' '}
               <span className="text-blue">marketing and community</span>{' '}
               development
             </li>
             <li>
-              8% - For the <span className="text-blue">development team</span>,
+              5% - For the <span className="text-blue">development team</span>,
               locked for 1 year
             </li>
           </ul>
@@ -71,7 +75,13 @@ const Tokenomics = React.forwardRef<HTMLDivElement, TokenomicsProps>(
             Total supply: 100,000,000,000 tokens
           </p>
         </div>
-        <div className="w-1/2"></div>
+        <div className="mt-10 lg:mt-0 lg:w-1/2">
+          <img
+            src="/images/pi_network.jpg"
+            alt="Tokenomics"
+            className="w-full rounded-xl"
+          />
+        </div>
       </div>
     )
   }

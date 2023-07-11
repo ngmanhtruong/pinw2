@@ -4,8 +4,11 @@ import RIGHT_ARROW from '../assets/right-arrow.png'
 type AboutProps = {}
 const About = React.forwardRef<HTMLDivElement, AboutProps>((props, ref) => {
   return (
-    <div className="flex items-center py-20 gap-20" ref={ref}>
-      <div className="w-2/5">
+    <div
+      className="flex flex-col-reverse py-20 lg:flex-row lg:gap-20 lg:items-center"
+      ref={ref}
+    >
+      <div className="lg:w-2/5">
         <p className="gradient-text bg-gradient-to-r from-lightGray to-blue text-blue italic text-4xl leading-10 text-left mt-6">
           <img src={RIGHT_ARROW} alt="right arrow" className="inline-block" />{' '}
           Faster and more efficient transactions
@@ -23,7 +26,7 @@ const About = React.forwardRef<HTMLDivElement, AboutProps>((props, ref) => {
           Opportunity for early adoption
         </p>
       </div>
-      <div className="w-3/5 pr-10">
+      <div className="mt-10 lg:mt-0 lg:w-3/5 lg:pr-10">
         <h1 className="text-yellow text-6xl font-bold leading-tight">
           Welcome to Pi network V2
         </h1>

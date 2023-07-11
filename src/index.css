@@ -98,6 +98,14 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
+  .invert-images {
+    filter: none;
+  }
+}
+
+invert-images {
+  filter: invert(1);
 }
 
 .gradient-text {

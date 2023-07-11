@@ -3,12 +3,12 @@ import React from 'react'
 type TeamProps = {}
 const Team = React.forwardRef<HTMLDivElement, TeamProps>((props, ref) => {
   return (
-    <div ref={ref} className="py-20">
+    <div ref={ref} className="py-20 m-auto max-w-screen-xl">
       <h1 className="text-yellow text-6xl text-center font-bold pt-10">
         Pi Network V2 Team
       </h1>
-      <div className="flex flex-wrap py-10 px-20">
-        <div className="w-1/3 py-5 px-2 flex flex-col items-center">
+      <div className="flex flex-wrap py-10 md:px-20">
+        <div className="w-full lg:w-1/2 xl:w-1/3 py-5 px-2 flex flex-col items-center">
           <img
             src="/images/antoine.jpg"
             alt="Antoine"
@@ -26,7 +26,7 @@ const Team = React.forwardRef<HTMLDivElement, TeamProps>((props, ref) => {
             applications. His company now has a team of over 20 developers.
           </p>
         </div>
-        <div className="w-1/3 py-5 px-2 flex flex-col items-center">
+        <div className="w-full lg:w-1/2 xl:w-1/3 py-5 px-2 flex flex-col items-center">
           <img
             className="border-8 border-lightGray rounded-full w-full max-w-lg"
             src="/images/julian.png"
@@ -43,7 +43,7 @@ const Team = React.forwardRef<HTMLDivElement, TeamProps>((props, ref) => {
             optimization of blockchain code.
           </p>
         </div>
-        <div className="w-1/3 py-5 px-2 flex flex-col items-center">
+        <div className="w-full lg:w-1/2 xl:w-1/3 py-5 px-2 flex flex-col items-center">
           <img
             className="border-8 border-lightGray rounded-full w-full  max-w-lg"
             src="/images/sofia.jpg"

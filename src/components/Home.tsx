@@ -9,8 +9,8 @@ const Home = React.forwardRef<HTMLDivElement, HomeProps>((props, ref) => {
     )
   }
   return (
-    <div className="flex py-20 pl-10 items-center" ref={ref}>
-      <div className="w-1/2">
+    <div className="w-full lg:flex py-20 lg:pl-10 lg:items-center" ref={ref}>
+      <div className="lg:w-1/2">
         <h1 className="text-yellow text-6xl font-bold">Pi Network V2</h1>
         <p className="pt-5 text-xl leading-9">
           Pi network V2 is an <span className="text-blue">upgraded</span>{' '}
@@ -22,14 +22,16 @@ const Home = React.forwardRef<HTMLDivElement, HomeProps>((props, ref) => {
           space.
         </p>
         <p className="text-yellow text-2xl font-bold pt-5">Contract Address:</p>
-        <a
-          className="text-white text-xl leading-9"
-          target="_blank"
-          href="https://etherscan.io/address/0x886dB6deE814260aFdD82a3C1812792B04e1Fa47"
-          title="Go to Etherscan"
-        >
-          0x886dB6deE814260aFdD82a3C1812792B04e1Fa47
-        </a>
+        <div className="whitespace-nowrap overflow-ellipsis overflow-hidden">
+          <a
+            className="text-white text-xl leading-9"
+            target="_blank"
+            href="https://etherscan.io/address/0x886dB6deE814260aFdD82a3C1812792B04e1Fa47"
+            title="Go to Etherscan"
+          >
+            0x886dB6deE814260aFdD82a3C1812792B04e1Fa47
+          </a>
+        </div>
         <div className="flex">
           <button
             className="bg-yellow text-black text-xl font-bold rounded-full px-10 py-2 mt-10
@@ -40,9 +42,9 @@ const Home = React.forwardRef<HTMLDivElement, HomeProps>((props, ref) => {
           </button>
         </div>
       </div>
-      <div className="flex w-1/2 pl-5">
+      <div className="mt-10 flex lg:w-1/2 lg:mt-0 lg:pl-5">
         <img
-          src="/background.jpg"
+          src="/images/pi_network2.jpg"
           alt="background"
           className="w-full rounded-xl"
         />
