@@ -9,8 +9,13 @@ const Partners = React.forwardRef<HTMLDivElement, PartnersProps>(
         <div ref={ref} className="flex flex-wrap py-10 sm:px-20">
           <div className="w-full sm:w-1/2 lg:w-1/3 py-5 flex justify-center">
             <img
-              className="invert-images w-full max-w-xs"
+              className="invert-images w-full max-w-xs dark:hidden"
               src="/images/uniswap.png"
+              alt="Uniswap"
+            />
+            <img
+              className="w-full max-w-xs hidden dark:block"
+              src="/images/uniswap-dark.png"
               alt="Uniswap"
             />
           </div>

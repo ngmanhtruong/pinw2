@@ -25,16 +25,22 @@ const Roadmap = React.forwardRef<HTMLDivElement, RoadmapProps>((props, ref) => {
             </div>
             <div className="p-5 text-xl dark:bg-slate-700 bg-slate-400 leading-relaxed h-full">
               <h1 className="text-yellow text-2xl font-bold pb-5">Stage 1</h1>
-              <p>- Complete presale and launch token on Uniswap</p>
-              <p>- Lock liquidity for 1 year on Uniswap</p>
-              <p>- Renounce ownership of smart contract </p>
               <p>
-                - Apply for initial exchange listings (Bitmart, Gemini, Mexc)
-                using 2% allocation{' '}
+                <span className="text-green">✅</span> Build socials channel
               </p>
-              <p>- Build out token website and social media channels</p>
-              <p>- Onboard initial development team using 5% allocation </p>
-              <p>- Begin developing dApp and smart contract integrations</p>
+              <p>
+                <span className="text-green">✅</span> Build website 1.0
+              </p>
+              <p>
+                <span className="text-green">✅</span> Build great community
+              </p>
+              <p>
+                <span className="text-green">✅</span> Create smart contract
+                safe
+              </p>
+              <p>
+                <span className="text-green">✅</span> Cooperate with exchanges
+              </p>
             </div>
           </div>
         </div>
@@ -49,18 +55,26 @@ const Roadmap = React.forwardRef<HTMLDivElement, RoadmapProps>((props, ref) => {
             </div>
             <div className="p-5 text-xl dark:bg-slate-700 bg-slate-400 leading-relaxed h-full">
               <h1 className="text-yellow text-2xl font-bold pb-5">Stage 2</h1>
-              <p>- Get listed on initial exchange listings</p>
               <p>
-                - Expand marketing and community building efforts using 4%
-                allocation
+                <span className="text-blue">💠</span> Partnerships with
+                influencers
               </p>
-              <p>- Continue developing dApp and smart contract integrations</p>
               <p>
-                - Apply for additional exchange listings (KuCoin, ByBit, Gate)
-                using 4% allocation
+                <span className="text-blue">💠</span> Call group collaborations
+                (200+ Group Telegram)
               </p>
-              <p>- Launch staking and rewards program (if applicable)</p>
-              <p>- Expand development team as needed</p>
+              <p>
+                <span className="text-blue">💠</span> Presale on Pinksale
+              </p>
+              <p>
+                <span className="text-blue">💠</span> Tier 2 exchange listing
+              </p>
+              <p>
+                <span className="text-blue">💠</span> CMC, CG Fastrack
+              </p>
+              <p>
+                <span className="text-blue">💠</span> 5000 holders
+              </p>
             </div>
           </div>
         </div>
@@ -76,16 +90,21 @@ const Roadmap = React.forwardRef<HTMLDivElement, RoadmapProps>((props, ref) => {
             <div className="p-5 text-xl dark:bg-slate-700 bg-slate-400 leading-relaxed h-full">
               <h1 className="text-yellow text-2xl font-bold pb-5">Stage 3</h1>
               <p>
-                - Apply for additional exchange listings (Conbase, OKX) using 5%
-                allocation
+                <span className="text-green">🟢</span> Buyback
               </p>
-              <p>- Fully launch dApp and smart contract integrations</p>
               <p>
-                - Integrate token into ecosystem of decentralized applications
+                <span className="text-green">🟢</span> Marketing on Tiktok,
+                Twitter
               </p>
-              <p>- Expand team as the ecosystem grows</p>
-              <p>- Continue listing on new exchanges as opportunities arise</p>
-              <p>- 50,000 holders</p>
+              <p>
+                <span className="text-green">🟢</span> Tier 1 exchange listing
+              </p>
+              <p>
+                <span className="text-green">🟢</span> Website v2 launch
+              </p>
+              <p>
+                <span className="text-green">🟢</span> 20,000+ holders
+              </p>
             </div>
           </div>
         </div>

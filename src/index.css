@@ -41,7 +41,7 @@ html {
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-color: #0a090b;
+  background-color: #031b57;
   color-scheme: light dark;
 
   font-synthesis: none;
@@ -104,7 +104,7 @@ button:focus-visible {
   }
 }
 
-invert-images {
+.invert-images {
   filter: invert(1);
 }
 

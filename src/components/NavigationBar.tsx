@@ -57,12 +57,12 @@ function NavigationBar({
                 Contact
               </li>
             </ul>
-            <button
+            {/* <button
               type="button"
               className="select-none text-2xl px-3 py-2 border border-yellow rounded-xl bg-yellow text-black ml-2 hover:bg-blue hover:border-blue transition duration-300 ease-in-out"
             >
               Whitepaper
-            </button>
+            </button> */}
           </div>
           <div className="lg:hidden">
             <button
@@ -100,12 +100,12 @@ function NavigationBar({
               Contact
             </li>
           </ul>
-          <button
+          {/* <button
             type="button"
             className="select-none text-2xl px-3 py-2 border border-yellow rounded-xl bg-yellow text-black ml-2 hover:bg-blue hover:border-blue transition duration-300 ease-in-out max-w-xs"
           >
             Whitepaper
-          </button>
+          </button> */}
         </div>
       </nav>
     </div>
