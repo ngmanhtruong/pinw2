@@ -15,15 +15,15 @@ const Team = React.forwardRef<HTMLDivElement, TeamProps>((props, ref) => {
             className="border-8 border-lightGray rounded-full w-full  max-w-lg"
           />
           <p className="text-yellow text-2xl text-center font-bold pt-10">
-            Antoine
+            Jimmy
           </p>
           <p className="text-blue text-xl text-center">Blockchain Developer</p>
           <p className="text-xl text-center pt-10">
-            Antoine is a French blockchain developer and entrepreneur. He
+            Jimmy is an American blockchain developer and entrepreneur. He
             started learning about Bitcoin in 2013 and has been involved in the
-            crypto space ever since. In 2017, Antoine founded a blockchain
-            development company focused on building decentralized finance
-            applications. His company now has a team of over 20 developers.
+            crypto space ever since. Jimmy has worked on several blockchain
+            projects and is currently focused on building decentralized
+            applications on Ethereum.
           </p>
         </div>
         <div className="w-full lg:w-1/2 xl:w-1/3 py-5 px-2 flex flex-col items-center">
@@ -33,14 +33,14 @@ const Team = React.forwardRef<HTMLDivElement, TeamProps>((props, ref) => {
             alt="Julian"
           />
           <p className="text-yellow text-2xl text-center font-bold pt-10">
-            Julian
+            James
           </p>
           <p className="text-blue text-xl text-center">Blockchain Developer</p>
           <p className="text-xl text-center pt-10">
-            Julian is a blockchain developer from Germany. He has over 5 years
-            of experience building decentralized applications and smart
-            contracts on Ethereum. Julian specializes in security audits and
-            optimization of blockchain code.
+            James is a blockchain developer from America. He has over 5 years of
+            experience building decentralized applications and smart contracts
+            on Ethereum. James specializes in security audits and optimization
+            of blockchain code.
           </p>
         </div>
         <div className="w-full lg:w-1/2 xl:w-1/3 py-5 px-2 flex flex-col items-center">

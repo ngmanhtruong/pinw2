@@ -37,7 +37,7 @@ const Footer = React.forwardRef<HTMLDivElement, FooterProps>((_, ref) => {
             />
           </a>
           <a
-            href="https://t.me/ave_ai"
+            href="https://t.me/pi_network_v2"
             target="_blank"
             rel="noreferrer"
             className="opacity-70 hover:opacity-100 mx-2 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"

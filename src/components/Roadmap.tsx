@@ -15,10 +15,10 @@ const Roadmap = React.forwardRef<HTMLDivElement, RoadmapProps>((props, ref) => {
         className="flex flex-wrap flex-col lg:flex-row pt-10 max-w-screen-xl m-auto"
       >
         <div className="lg:w-1/2 xl:w-1/3 px-5">
-          <div className="rounded h-full flex flex-col">
+          <div className="rounded-md overflow-hidden h-full flex flex-col">
             <div className="flex min-h-52">
               <img
-                className="w-full object-cover max-h-64 object-center"
+                className="w-full object-cover max-h-80 lg:max-h-64 object-center"
                 src="/images/pi_stage1.jpg"
                 alt="roadmap-1"
               />
@@ -39,10 +39,10 @@ const Roadmap = React.forwardRef<HTMLDivElement, RoadmapProps>((props, ref) => {
           </div>
         </div>
         <div className="mt-10 lg:mt-0 lg:w-1/2 xl:w-1/3 px-5">
-          <div className="rounded h-full flex flex-col">
+          <div className="rounded-md overflow-hidden h-full flex flex-col">
             <div className="flex min-h-52">
               <img
-                className="w-full object-cover max-h-64 object-center"
+                className="w-full object-cover max-h-80 lg:max-h-64 object-center"
                 src="/images/pi_stage2.jpg"
                 alt="roadmap-1"
               />
@@ -65,10 +65,10 @@ const Roadmap = React.forwardRef<HTMLDivElement, RoadmapProps>((props, ref) => {
           </div>
         </div>
         <div className="mt-10 xl:mt-0 lg:w-1/2 xl:w-1/3 px-5">
-          <div className="rounded h-full flex flex-col">
+          <div className="rounded-md overflow-hidden h-full flex flex-col">
             <div className="flex min-h-52">
               <img
-                className="w-full object-cover max-h-64 object-center"
+                className="w-full object-cover max-h-80 lg:max-h-64 object-center"
                 src="/images/pi_stage3.jpg"
                 alt="roadmap-1"
               />
