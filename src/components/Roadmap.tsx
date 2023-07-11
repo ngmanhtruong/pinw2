@@ -14,7 +14,7 @@ const Roadmap = React.forwardRef<HTMLDivElement, RoadmapProps>((props, ref) => {
         ref={ref}
         className="flex flex-wrap flex-col lg:flex-row pt-10 max-w-screen-xl m-auto"
       >
-        <div className="lg:w-1/2 xl:w-1/3  px-5">
+        <div className="lg:w-1/2 xl:w-1/3 px-5">
           <div className="rounded h-full flex flex-col">
             <div className="flex min-h-52">
               <img
@@ -38,7 +38,7 @@ const Roadmap = React.forwardRef<HTMLDivElement, RoadmapProps>((props, ref) => {
             </div>
           </div>
         </div>
-        <div className="mt-10 lg:mt-0 lg:w-1/2 xl:1/3 px-5">
+        <div className="mt-10 lg:mt-0 lg:w-1/2 xl:w-1/3 px-5">
           <div className="rounded h-full flex flex-col">
             <div className="flex min-h-52">
               <img

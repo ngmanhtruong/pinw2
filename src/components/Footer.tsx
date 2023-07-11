@@ -1,13 +1,7 @@
 import React from 'react'
 
-type FooterProps = {
-  scrollToHome: () => void
-  scrollToAbout: () => void
-  scrollToTokenomics: () => void
-  scrollToRoadmap: () => void
-  scrollToContact: () => void
-}
-const Footer = React.forwardRef<HTMLDivElement, FooterProps>((props, ref) => {
+type FooterProps = {}
+const Footer = React.forwardRef<HTMLDivElement, FooterProps>((_, ref) => {
   return (
     <div ref={ref} className="pt-10 px-10">
       <nav>
